@@ -1,7 +1,8 @@
 {
   "generator-jhipster": {
     "promptValues": {
-      "packageName": "com.singsaver.frontend"
+      "packageName": "com.singsaver.frontend",
+      "microservicePath": "../creditcard"
     },
     "jhipsterVersion": "6.10.1",
     "applicationType": "gateway",
