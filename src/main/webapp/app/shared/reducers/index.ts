@@ -15,6 +15,10 @@ import passwordReset, { PasswordResetState } from 'app/modules/account/password-
 import card, {
   CardState
 } from 'app/entities/creditcard/card/card.reducer';
+// prettier-ignore
+import cardApplication, {
+  CardApplicationState
+} from 'app/entities/creditcard/card-application/card-application.reducer';
 /* jhipster-needle-add-reducer-import - JHipster will add reducer here */
 
 export interface IRootState {
@@ -28,6 +32,7 @@ export interface IRootState {
   readonly password: PasswordState;
   readonly settings: SettingsState;
   readonly card: CardState;
+  readonly cardApplication: CardApplicationState;
   /* jhipster-needle-add-reducer-type - JHipster will add reducer type here */
   readonly loadingBar: any;
 }
@@ -43,6 +48,7 @@ const rootReducer = combineReducers<IRootState>({
   password,
   settings,
   card,
+  cardApplication,
   /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
   loadingBar,
 });
