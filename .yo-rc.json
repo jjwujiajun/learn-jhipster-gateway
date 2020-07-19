@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.singsaver.frontend"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "gateway",
+    "baseName": "frontend",
+    "packageName": "com.singsaver.frontend",
+    "packageFolder": "com/singsaver/frontend",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Zjg4MDFiMTQ5M2Q1YzA1NzNkODg1YmI3YjYxNGI4YjgzZmZhOTI5NzA1NjNlNDVjOTFmNDQ5ZmI3MGQ5MWVhZTE1N2EwYTE0NzAxMGVkNjdjY2NkM2FjYWIzNDU5ZGNlMzk1Y2UwMjM5Mjg4MjVlMzNiYTUyNGYyYzk1NTlkMTc=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1595146494511,
+    "testFrameworks": ["gatling"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}

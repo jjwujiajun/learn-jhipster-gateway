@@ -1,0 +1,12 @@
+version: '2'
+services:
+  frontend-postgresql:
+    image: postgres:12.3
+    # volumes:
+    #     - ~/volumes/jhipster/frontend/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=frontend
+      - POSTGRES_PASSWORD=
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    ports:
+      - 5432:5432
